@@ -1,0 +1,3 @@
+# State Preserving Incrementing Button
+
+This small project is a webpage with a button that counts how many times it was clicked, storing the data into an SQLite database. PHP was used to connect to the SQLite database, with CSS/HTML used for the frontend. The data is stored in `clickedtimes.db`. `load_content.php` takes care of the actual incrementing (doing an SQL `UPDATE` call), while `load_initial.php` loads the last stored value on the webpage.
