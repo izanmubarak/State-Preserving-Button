@@ -5,6 +5,8 @@ This small project is a webpage with a button that counts how many times it was 
 ## Overview
 The actual incremented count is stored in the `clickedtimes.db` SQLite file, so this value is directly editable using an SQLite database editing application. `load_content.php` will increment the count when the user clicks on the "+1" button, as the click event handler for the button is set to run the `load_content.php` file. `load_initial.php` serves to display the value when the page is loaded or reloaded. `index.php` serves as the frontend, with CSS styling saved in `stylesheet.css`.
 
+This project has been tested to work properly on the latest versions of Chrome, Firefox, and Safari. As long as you have the latest versions of one of these browsers installed, the code should work without issue on both Windows and Mac.
+
 ## Setup (Mac)
 To run this locally on a Mac computer, download the code and add it to your `Sites` folder in your home folder (create it if it does not already exist). Fortunately, Mac computers come with Apache and PHP installed, so the setup process is relatively straightforward.
 
